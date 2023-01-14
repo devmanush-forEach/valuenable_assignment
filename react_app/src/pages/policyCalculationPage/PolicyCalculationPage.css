@@ -1,0 +1,14 @@
+.policy_input_main_container {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+  display: grid;
+  place-items: center;
+}
+
+.policy_input_box {
+  width: 60%;
+  display: grid;
+  place-items: center;
+  min-width: 600px;
+}

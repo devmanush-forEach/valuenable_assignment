@@ -1,0 +1,62 @@
+.illustration_main_container {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 60px;
+  background-color: #b2b2b2;
+  display: grid;
+  place-items: center;
+}
+
+.illustration_table_box {
+  width: 80%;
+  padding: 30px;
+  display: grid;
+  place-items: center;
+  background-color: #292929;
+}
+
+.illustration_table_heading {
+  color: white;
+  font-size: 30px;
+  border-bottom: 2px solid white;
+  padding: 5px 10px;
+}
+
+.illustration_table {
+  color: wheat;
+  font-size: 20px;
+
+  padding: 20px;
+  text-align: left;
+  min-width: 400px;
+  width: 60%;
+}
+
+.illustration_table thead {
+  color: aqua;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+.illustration_table thead th {
+  width: 50%;
+  padding: 10px 10px;
+}
+
+.illustration_table tr {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid white;
+  padding: 10px 10px;
+}
+.illustration_table tr td {
+  text-transform: capitalize;
+  display: block;
+  width: 50%;
+  padding: 10px 10px;
+}

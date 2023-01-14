@@ -1,0 +1,46 @@
+.illustration_fom {
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #292929;
+}
+
+.frequency_select_box {
+  width: 100%;
+  position: relative;
+}
+
+.frequency_select {
+  width: 100%;
+  display: block;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  border-radius: 0%;
+  border: 1px solid white;
+  padding: 0px 10px;
+}
+
+.frequency_select > option {
+  display: block;
+  color: black;
+  display: block;
+  height: 20px;
+}
+
+.premium_freq_label {
+  position: absolute;
+  top: -12px;
+  color: white;
+  background-color: #292929;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  padding: 0px 5px;
+  left: 10px;
+}
